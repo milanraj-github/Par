@@ -1,5 +1,3 @@
-Fibonacci..........................
-
 #include <stdio.h>
 #include <omp.h>
 int fib(int n) {
@@ -31,3 +29,6 @@ int main() {
     }
     return 0;
 }
+
+gcc -fopenmp L3.c -o L3
+./L3.exe
