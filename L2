@@ -13,3 +13,6 @@ int main() {
     }
     return 0;
 }
+
+gcc -fopenmp L2.c -o L2
+./L2.exe
