@@ -17,3 +17,7 @@ int main(int argc, char** argv) {
     MPI_Finalize();
     return 0;
 }
+
+cd /d "D:\4MW23CS071"
+cl L9.c msmpi.lib
+mpiexec -n 2 L9.exe
